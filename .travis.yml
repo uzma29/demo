@@ -1,10 +1,10 @@
 matrix:
 include:
--language: c
+- language: c
  sudo: false # only for faster builds
  compiler: 
   - clang
- - gcc
+  - gcc
  script:
- "gcc " -o test test.c // we can use gcc instead of clang too
+ - gcc -o test test.c 
  - ./test 
