@@ -1,7 +1,7 @@
  #include <stdio.h>
 #include <limits.h>
 #include <math.h>
-
+#include "simple_header"
 int max(int a, int b)
 {
   if (a>b)
