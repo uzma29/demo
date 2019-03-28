@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include <limits.h>
+#include "simple_header.h"
 void test_max(void)
 {
   printf ("Test max using assert:      ");
