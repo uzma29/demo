@@ -6,7 +6,7 @@
 
 void mul(int a, int b)
 {
-  printf("Input two integers to multiply\n");
+  printf("Enter two integers to multiply\n");
   scanf("%d%d", &a, &b);
 
   assert(a*b<100000);
