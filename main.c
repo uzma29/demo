@@ -13,7 +13,7 @@ int main()
     else if(c=='*')
         mul(a,b);
     else
-        printf("wrong input\n");
+    {printf("wrong input\n");}
 
     return 0;
 }
